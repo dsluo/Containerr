@@ -1,0 +1,33 @@
+GET http://localhost:3000/v1/node
+
+###
+GET http://localhost:3000/v1/node/00000000-0000-0000-0000-000000000000
+
+###
+POST http://localhost:3000/v1/node
+Content-Type: application/json
+
+{
+  "name": "asdf"
+}
+
+###
+POST http://localhost:3000/v1/node
+Content-Type: application/json
+
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "name": "asdf"
+}
+
+###
+
+PATCH http://localhost:3000/v1/node/00000000-0000-0000-0000-000000000000
+Content-Type: application/json
+
+{
+  "name": "hjkl"
+}
+
+###
+DELETE http://localhost:3000/v1/node/00000000-0000-0000-0000-000000000000

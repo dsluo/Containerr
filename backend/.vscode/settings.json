@@ -1,0 +1,13 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 500,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:backend}/db.sqlite3",
+            "name": "db.sqlite3"
+        }
+    ],
+    "editor.tabSize": 2,
+    "debug.javascript.autoAttachFilter": "smart"
+}
