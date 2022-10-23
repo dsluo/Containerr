@@ -89,5 +89,8 @@
       "./src/mikro-orm.config.ts",
       "./dist/mikro-orm.config.js"
     ]
+  },
+  "volta": {
+    "node": "16.18.0"
   }
 }
